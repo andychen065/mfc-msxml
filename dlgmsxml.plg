@@ -1,0 +1,28 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: dlgmsxml - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP46.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/dlgmsxml.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ   /c 
+"C:\dlgmsxml\dlgmsxmlDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP46.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:yes /pdb:"Debug/dlgmsxml.pdb" /debug /machine:I386 /out:"Debug/dlgmsxml.exe" /pdbtype:sept  .\Debug\dlgmsxml.obj .\Debug\dlgmsxmlDlg.obj .\Debug\StdAfx.obj .\Debug\dlgmsxml.res "
+<h3>Output Window</h3>
+Compiling...
+dlgmsxmlDlg.cpp
+C:\dlgmsxml\dlgmsxmlDlg.cpp(213) : warning C4018: '<' : signed/unsigned mismatch
+Linking...
+
+
+
+<h3>Results</h3>
+dlgmsxml.exe - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>
